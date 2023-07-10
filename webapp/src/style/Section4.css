@@ -1,0 +1,22 @@
+.section-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.row img {
+  width: 100px;
+  height: 100px;
+}
